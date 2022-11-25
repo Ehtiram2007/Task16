@@ -1,0 +1,21 @@
+#banner {
+  font-family: "Poppins", sans-serif;
+  .banner_item {
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+    .banner_cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      img {
+        width: 250px;
+        height: 205px;
+        object-fit: cover;
+        object-position: center;
+        border: 1px solid black;
+      }
+    }
+  }
+}
